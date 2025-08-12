@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Clock() {
     const [time, setTime] = useState(new Date());
@@ -28,7 +28,7 @@ function Clock() {
 
     return (
     <div className=' w-[350px] h-[200px] bg-[#2E2E2E] rounded-xl m-auto mt-[10%] flex align-center justify-center'>
-        <h1 className='h-[2rem] my-auto bg-[#fff] px-[10px] pt-[4px] rounded-xl text-[30px] h-[50px] '>{formatTime(time)}</h1>
+        <h1 className='my-auto bg-[#fff] px-[10px] pt-[4px] rounded-xl text-[30px] h-[50px] '>{formatTime(time)}</h1>
     </div>
     );
 }
