@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ThemeOfPage } from './App'
-
+import heroimg from './img/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg'
 function Header() {
     const { theme, setTheme } = useContext(ThemeOfPage);
 
